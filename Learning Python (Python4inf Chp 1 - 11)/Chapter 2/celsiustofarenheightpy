@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Apr 18 20:25:19 2016
+
+@author: varun
+"""
+
+celsius = raw_input ('What is the tempreature in celsius?/n')
+celsius = int(celcius)
+celsius * 1.8 + 32
+priont celsius

@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Aug  9 12:13:04 2016
+
+@author: varun
+"""
+
+import string
+letterbox = dict()
+words = []
+
+fname = raw_input ('Please enter a file name:')
+
+try:
+    fhand = open (fname)
+
+except:
+    print ('file "'),(fname),('" could not be opened')
+    exit ()
+
